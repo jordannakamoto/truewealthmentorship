@@ -1,0 +1,345 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-logo {
+    max-height: 50px; /* Adjust the size as needed */
+    width: auto;
+    opacity: 0.7; /* Slight opacity for a subtle effect */
+}
+
+.header-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links .purchase-btn {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.review {
+    width: 30%;
+}
+
+.rating {
+    font-size: 24px;
+    color: #f5c518; /* Gold color */
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.author-detail {
+    font-size: 14px;
+    color: #777;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.book-description {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.book-description h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hero-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* New CSS for the Community Engagement Section */
+.community-section {
+    background-color: #f9f5ee; /* Light beige background similar to the uploaded image */
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.activity-btn {
+    background-color: #d4af37; /* Gold color for buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.activity-btn:hover {
+    background-color: #b89730; /* Darker gold on hover */
+}
+
+.headshots {
+    position: absolute;
+    top: -35px; /* Adjust to position the headshots above the button */
+    left: 75%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px; /* Space between headshots */
+}
+
+.headshot {
+    width: 45px; /* Adjust size as needed */
+    height: 45px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image a circle */
+    background-color: white; /* White circle background */
+    border: 2px solid #fff; /* Adds a white border around the circle */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    position: relative; /* Enable stacking */
+}
+
+.headshot:nth-child(1) {
+    left: 0; /* Position the first headshot */
+    z-index: 3; /* Bring to the front */
+}
+
+.headshot:nth-child(2) {
+    left: -10px; /* Slightly overlap the second headshot */
+    z-index: 2; /* Place behind the first */
+}
+
+.headshot:nth-child(3) {
+    left: -20px; /* Slightly overlap the third headshot */
+    z-index: 1; /* Place behind the second */
+}
+
+.international-info {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.international-info a {
+    text-decoration: underline;
+    color: #666;
+}
+
+/* New CSS for the Book Excerpt Section */
+/* Updated CSS for the Book Excerpt Section */
+.excerpt-section {
+    background-color: #fff; /* White background for contrast */
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-top: 2px solid #ddd; /* Subtle border for separation */
+}
+
+.excerpt-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: left; /* Align title to the left */
+}
+
+.excerpt-text {
+    font-size: 18px;
+    font-style: italic; /* Italicize the quote for emphasis */
+    color: #555;
+    max-width: 800px;
+    margin: 0; /* Remove auto margin for left alignment */
+    line-height: 1.6;
+    text-align: left; /* Align text to the left */
+    margin-bottom: 20px; /* Add space after the excerpt text */
+}
+
+/* Style for the additional paragraphs */
+.excerpt-section p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Style for blockquotes */
+blockquote {
+    font-size: 16px;
+    color: #777;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #ddd; /* Subtle left border for blockquotes */
+}
+
+/* Additional styling for emphasis */
+p em {
+    font-style: italic;
+    font-weight: bold;
+    color: #444; /* Slightly darker color for emphasis */
+}
+
+@media (max-width: 768px) {
+    .activity-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-btn {
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .review {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+/* CSS for the Purchase Call to Action Section */
+.purchase-section {
+    background-color: #f7f7f7; /* Light gray background for contrast */
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+    border-top: 2px solid #ddd; /* Subtle top border for separation */
+}
+
+.purchase-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.purchase-description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+
+.purchase-btn {
+    background-color: #d4af37; /* Gold color for the button */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.purchase-btn:hover {
+    background-color: #b89730; /* Darker gold on hover */
+}
