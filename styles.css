@@ -13,14 +13,14 @@ body {
 
 .container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 960px; /* Reduced from 1200px */
     margin: 0 auto;
-    padding: 20px;
+    padding: 16px; /* Reduced from 20px */
 }
 
 header {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 16px 0; /* Reduced from 20px */
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
@@ -28,29 +28,29 @@ header {
 .header-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 24px; /* Reduced from 30px */
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Reduced from 10px */
 }
 
 .header-logo {
-    max-height: 50px; /* Adjust the size as needed */
+    max-height: 40px; /* Reduced from 50px */
     width: auto;
     opacity: 0.7; /* Slight opacity for a subtle effect */
 }
 
 .header-title {
-    font-size: 14px;
+    font-size: 11px; /* Reduced from 14px */
     font-weight: bold;
     color: #999;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.6px; /* Reduced from 2px */
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 16px; /* Reduced from 20px */
 }
 
 .nav-links li a {
@@ -61,8 +61,8 @@ header {
 
 .nav-links .purchase-btn {
     background-color: #f7f7f7;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 8px 16px; /* Reduced from 10px 20px */
+    border-radius: 3.2px; /* Reduced from 4px */
     color: #333;
 }
 
@@ -70,64 +70,65 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 32px; /* Reduced from 40px */
     text-align: center;
 }
 
 .review {
-    width: 30%;
+    width: 24%; /* Reduced from 30% */
 }
 
 .rating {
-    font-size: 24px;
+    font-size: 19px; /* Reduced from 24px */
     color: #f5c518; /* Gold color */
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Reduced from 10px */
 }
 
 .quote {
-    font-size: 18px;
+    font-size: 14px; /* Reduced from 18px */
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 16px; /* Reduced from 20px */
     font-style: italic;
 }
 
 .author {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 4px; /* Reduced from 5px */
 }
 
 .author-detail {
-    font-size: 14px;
+    font-size: 11px; /* Reduced from 14px */
     color: #777;
 }
 
 .book-cover img {
     max-width: 100%;
     height: auto;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
 .book-description {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 32px; /* Reduced from 40px */
 }
 
 .book-description h1 {
-    font-size: 28px;
+    font-size: 22px; /* Reduced from 28px */
     font-weight: bold;
 }
 
 .hero-title {
-    font-size: 24px;
+    font-size: 19px; /* Reduced from 24px */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Reduced from 10px */
 }
 
 .hero-description {
-    font-size: 20px;
+    font-size: 16px; /* Reduced from 20px */
+    padding-top: 10px;
+    line-height: 1.5em;
     color: #333;
-    margin-bottom: 30px;
-    max-width: 800px;
+    margin-bottom: 24px; /* Reduced from 30px */
+    max-width: 660px; /* Reduced from 800px */
     margin-left: auto;
     margin-right: auto;
 }
@@ -135,22 +136,22 @@ header {
 /* New CSS for the Community Engagement Section */
 .community-section {
     background-color: #f9f5ee; /* Light beige background similar to the uploaded image */
-    padding: 40px 20px;
+    padding: 32px 16px; /* Reduced from 40px 20px */
     text-align: center;
-    margin-top: 40px;
+    margin-top: 32px; /* Reduced from 40px */
 }
 
 .section-title {
-    font-size: 24px;
+    font-size: 19px; /* Reduced from 24px */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Reduced from 10px */
 }
 
 .section-description {
-    font-size: 16px;
+    font-size: 14px; /* Reduced from 16px */
     color: #333;
-    margin-bottom: 30px;
-    max-width: 600px;
+    margin-bottom: 24px; /* Reduced from 30px */
+    max-width: 480px; /* Reduced from 600px */
     margin-left: auto;
     margin-right: auto;
 }
@@ -158,15 +159,15 @@ header {
 .activity-buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 16px; /* Reduced from 20px */
     flex-wrap: wrap;
 }
 
 .activity-btn {
     background-color: #d4af37; /* Gold color for buttons */
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 8px 16px; /* Reduced from 10px 20px */
+    border-radius: 3.2px; /* Reduced from 4px */
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s ease;
@@ -179,42 +180,42 @@ header {
 
 .headshots {
     position: absolute;
-    top: -35px; /* Adjust to position the headshots above the button */
+    top: -28px; /* Reduced from -35px */
     left: 75%;
     transform: translateX(-50%);
     display: flex;
-    gap: 5px; /* Space between headshots */
+    gap: 4px; /* Reduced from 5px */
 }
 
 .headshot {
-    width: 45px; /* Adjust size as needed */
-    height: 45px; /* Adjust size as needed */
-    border-radius: 50%; /* Makes the image a circle */
-    background-color: white; /* White circle background */
-    border: 2px solid #fff; /* Adds a white border around the circle */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
-    position: relative; /* Enable stacking */
+    width: 36px; /* Reduced from 45px */
+    height: 36px; /* Reduced from 45px */
+    border-radius: 50%;
+    background-color: white;
+    border: 1.6px solid #fff; /* Reduced from 2px */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); /* Reduced shadow size */
+    position: relative;
 }
 
 .headshot:nth-child(1) {
-    left: 0; /* Position the first headshot */
-    z-index: 3; /* Bring to the front */
+    left: 0;
+    z-index: 3;
 }
 
 .headshot:nth-child(2) {
-    left: -10px; /* Slightly overlap the second headshot */
-    z-index: 2; /* Place behind the first */
+    left: -8px; /* Reduced from -10px */
+    z-index: 2;
 }
 
 .headshot:nth-child(3) {
-    left: -20px; /* Slightly overlap the third headshot */
-    z-index: 1; /* Place behind the second */
+    left: -16px; /* Reduced from -20px */
+    z-index: 1;
 }
 
 .international-info {
-    font-size: 14px;
+    font-size: 11px; /* Reduced from 14px */
     color: #666;
-    margin-top: 20px;
+    margin-top: 16px; /* Reduced from 20px */
 }
 
 .international-info a {
@@ -222,53 +223,52 @@ header {
     color: #666;
 }
 
-/* New CSS for the Book Excerpt Section */
 /* Updated CSS for the Book Excerpt Section */
 .excerpt-section {
-    background-color: #fff; /* White background for contrast */
-    padding: 40px 20px;
-    margin-top: 40px;
-    border-top: 2px solid #ddd; /* Subtle border for separation */
+    background-color: #fff;
+    padding: 32px 16px; /* Reduced from 40px 20px */
+    padding-top: 64px; /* Reduced from 40px */
+    border-top: 1.6px solid #ddd; /* Reduced border thickness */
 }
 
 .excerpt-title {
-    font-size: 26px;
+    font-size: 21px; /* Reduced from 26px */
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 16px; /* Reduced from 20px */
     color: #333;
-    text-align: left; /* Align title to the left */
+    text-align: left;
 }
 
 .excerpt-text {
-    font-size: 18px;
-    font-style: italic; /* Italicize the quote for emphasis */
+    font-size: 14px; /* Reduced from 18px */
+    font-style: italic;
     color: #555;
-    max-width: 800px;
-    margin: 0; /* Remove auto margin for left alignment */
+    max-width: 640px; /* Reduced from 800px */
+    margin: 0;
     line-height: 1.6;
-    text-align: left; /* Align text to the left */
-    margin-bottom: 20px; /* Add space after the excerpt text */
+    text-align: left;
+    margin-bottom: 16px; /* Reduced from 20px */
 }
 
 /* Style for the additional paragraphs */
 .excerpt-section p {
-    font-size: 16px;
+    font-size: 14px; /* Reduced from 16px */
     color: #333;
     line-height: 1.6;
     text-align: left;
-    margin-bottom: 20px; /* Space between paragraphs */
+    margin-bottom: 16px; /* Reduced from 20px */
 }
 
 /* Style for blockquotes */
 blockquote {
-    font-size: 16px;
+    font-size: 14px; /* Reduced from 16px */
     color: #777;
     font-style: italic;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    border-left: 4px solid #ddd; /* Subtle left border for blockquotes */
+    margin-left: 16px; /* Reduced from 20px */
+    margin-top: 8px; /* Reduced from 10px */
+    margin-bottom: 16px; /* Reduced from 20px */
+    padding-left: 16px; /* Reduced from 20px */
+    border-left: 3.2px solid #ddd; /* Reduced border thickness */
 }
 
 /* Additional styling for emphasis */
@@ -285,7 +285,7 @@ p em {
     }
 
     .activity-btn {
-        margin-bottom: 10px;
+        margin-bottom: 8px; /* Reduced from 10px */
     }
 
     .main-content {
@@ -294,54 +294,54 @@ p em {
 
     .review {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 16px; /* Reduced from 20px */
     }
 
     .header-container {
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 12px; /* Reduced from 15px */
     }
 }
 
 /* CSS for the Purchase Call to Action Section */
 .purchase-section {
-    background-color: #f7f7f7; /* Light gray background for contrast */
-    padding: 40px 20px;
+    background-color: #f7f7f7;
+    padding: 32px 16px; /* Reduced from 40px 20px */
     text-align: center;
-    margin-top: 40px;
-    border-top: 2px solid #ddd; /* Subtle top border for separation */
+    margin-top: 32px; /* Reduced from 40px */
+    border-top: 1.6px solid #ddd; /* Reduced border thickness */
 }
 
 .purchase-title {
-    font-size: 26px;
+    font-size: 21px; /* Reduced from 26px */
     font-weight: bold;
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 16px; /* Reduced from 20px */
 }
 
 .purchase-description {
-    font-size: 18px;
+    font-size: 14px; /* Reduced from 18px */
     color: #555;
-    margin-bottom: 30px;
-    max-width: 700px;
+    margin-bottom: 24px; /* Reduced from 30px */
+    max-width: 560px; /* Reduced from 700px */
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6;
 }
 
 .purchase-btn {
-    background-color: #d4af37; /* Gold color for the button */
+    background-color: #d4af37;
     color: #fff;
-    padding: 15px 30px;
-    border-radius: 5px;
+    padding: 12px 24px; /* Reduced from 15px 30px */
+    border-radius: 4px; /* Adjusted to a standard size */
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px; /* Reduced from 18px */
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
 .purchase-btn:hover {
-    background-color: #b89730; /* Darker gold on hover */
+    background-color: #b89730;
 }
 
 /* Graphic Section */
@@ -350,16 +350,16 @@ p em {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 880px; /* Reduced from 1200px */
     margin: 0 auto;
-    gap: 30px; /* Space between image and text */
-    padding: 20px 15px; /* Uniform padding */
+    gap: 24px; /* Reduced from 30px */
+    padding: 16px 12px; /* Reduced from 20px 15px */
 }
 
 .image-content, .graphic {
-    flex: 1; /* Makes both image containers take up equal space */
-    display: flex; /* Add flex display */
-    justify-content: center; /* Center images horizontally */
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .image-left, .graphic-image {
@@ -369,61 +369,43 @@ p em {
 }
 
 .text-content {
-    flex: 1; /* Makes the text container take up equal space */
-    max-width: 600px;
+    flex: 1;
+    max-width: 480px; /* Reduced from 600px */
 }
 
 .section-title, .text-title {
-    font-size: 24px;
+    font-size: 19px; /* Reduced from 24px */
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 8px; /* Reduced from 10px */
 }
 
 .text-description {
-    font-size: 16px;
+    font-size: 14px; /* Reduced from 16px */
     line-height: 1.6;
     color: #333;
-}
-
-/* Removing specific section selectors to unify the styles */
-.image-text-section, .graphic-text-section {
-    margin-top: 40px;
-}
-
-/* Removing individual wrappers to unify the flex containers */
-.image-text-wrapper, .graphic-text-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 30px;
 }
 
 /* gratitude graphic */
 
 .featured-image-section {
     text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f5f5f5; /* Light grey background */
-}
-
-.section-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-top: 32px; /* Reduced from 40px */
+    padding: 16px; /* Reduced from 20px */
+    background-color: #f5f5f5;
 }
 
 .featured-image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
-    margin-bottom: 15px;
+    box-shadow: 0 3.2px 6.4px rgba(0, 0, 0, 0.1); /* Reduced shadow size */
+    margin-bottom: 12px; /* Reduced from 15px */
 }
 
 .image-description {
-    font-size: 16px;
+    font-size: 14px; /* Reduced from 16px */
     color: #555;
-    max-width: 600px;
+    max-width: 480px; /* Reduced from 600px */
     margin-left: auto;
     margin-right: auto;
 }
